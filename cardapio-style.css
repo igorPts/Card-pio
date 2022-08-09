@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(200, 182, 142);
+    text-align: center;
+    color: rgb(103, 90, 77);
+    font-family: 'Roboto Serif', serif;
+}
+#title h2{
+    font-size: 45px;
+    display: inline-block;
+    margin: 3% 0 1% 0;
+}
+#title h2 span{
+    color: rgb(199, 141, 55);
+}
+main h2{
+    padding: 2%;
+    margin: 15% auto 7% auto;
+    background-color: rgb(205, 174, 121);
+    border-radius: 2px;
+}
+#brunch, #bebidas, #dinner{
+    float: none;
+    margin: 4% auto 5% auto;
+    min-height: 15vw;
+    max-height: auto;
+    width: 35vw;
+}
+.meal{
+    margin-top: 3%;
+    border-bottom: 1px solid rgba(103, 90, 77, 0.568);
+}
+.nome-preco{
+    display: flex;
+    justify-content: space-between;
+}
+.meal p{
+    max-width: 75%;
+    margin: 4% 0;
+    text-align: start;
+}
